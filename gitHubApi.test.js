@@ -10,8 +10,7 @@ describe('GitHubApi Class', () => {
   it('calls fetch and loads repo info', async () => {
     const api = new GitHubApi;
     let result;
-    const setTest = await api.getRepoInfo('rails/rails', (data) => {
-      console.log(data);
+    await api.getRepoInfo('rails/rails', (data) => {
       result = data;
     });
     expect(result.description).toBe('Ruby on Rails');
