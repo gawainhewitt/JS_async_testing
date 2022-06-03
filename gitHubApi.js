@@ -9,3 +9,5 @@ async function convert(repoName, callback) {
     return null;
   }
 }
+
+module.exports = GithubApi;
