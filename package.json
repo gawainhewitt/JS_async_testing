@@ -1,0 +1,23 @@
+{
+  "name": "js_async_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gitApi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gawainhewitt/JS_async_testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gawainhewitt/JS_async_testing/issues"
+  },
+  "homepage": "https://github.com/gawainhewitt/JS_async_testing#readme",
+  "dependencies": {
+    "jest": "^28.1.0"
+  }
+}
